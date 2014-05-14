@@ -1,0 +1,609 @@
+'.text.html.php, .source.php':
+
+  'acceptPopup':
+    'prefix': 'acceptPopup'
+    'body': '\$this->acceptPopup();${0:}'
+
+  'amHttpAuthenticated':
+    'prefix': 'amHttpAuthenticated'
+    'body': '\$this->amHttpAuthenticated(\'${1:username}\', \'${2:password}\');${0:}'
+
+  'amLoggedAs':
+    'prefix': 'amLoggedAs'
+    'body': '\$this->amLoggedAs(${1:\$user}, ${2:\$driver});${0:}'
+
+  'amInPath':
+    'prefix': 'amInPath'
+    'body': '\$this->amInPath(\'${1:path}\');${0:}'
+
+  'amOnPage':
+    'prefix': 'amOnPage'
+    'body': '\$this->amOnPage(\'${1:path}\');${0:}'
+
+  'amOnSubdomain':
+    'prefix': 'amOnSubdomain'
+    'body': '\$this->amOnSubdomain(\'${1:subdomain}\');${0:}'
+
+  'appendField':
+    'prefix': 'appendField'
+    'body': '\$this->appendField(\'${1:field}\', \'${2:value}\');${0:}'
+
+  'attachFile':
+    'prefix': 'attachFile'
+    'body': '\$this->attachFile(\'${1:field}\', \'${2:filename}\');${0:}'
+
+  'blur':
+    'prefix': 'blur'
+    'body': '\$this->blur(\'${1:selector}\');${0:}'
+
+  'cancelPopup':
+    'prefix': 'cancelPopup'
+    'body': '\$this->cancelPopup();${0:}'
+
+  'checkOption':
+    'prefix': 'checkOption'
+    'body': '\$this->checkOption(\'${1:option}\');${0:}'
+
+  'cleanDir':
+    'prefix': 'cleanDir'
+    'body': '\$this->cleanDir(\'${1:dirname}\');${0:}'
+
+  'cleanupRedis':
+    'prefix': 'cleanupRedis'
+    'body': '\$this->cleanupRedis();${0:}'
+
+  'clearMemcache':
+    'prefix': 'clearMemcache'
+    'body': '\$this->clearMemcache();${0:}'
+
+  'click':
+    'prefix': 'click'
+    'body': '\$this->click(\'${1:linkOrSelector}\'${2:, \'${3:selector}\'});${0:}'
+
+  'clickWithRightButton':
+    'prefix': 'clickWithRightButton'
+    'body': '\$this->clickWithRightButton(\'${1:selector}\');${0:}'
+
+  'copyDir':
+    'prefix': 'copyDir'
+    'body': '\$this->copyDir(\'${1:src}\', \'${2:dst}\');${0:}'
+
+  'deleteDir':
+    'prefix': 'deleteDir'
+    'body': '\$this->deleteDir(\'${1:dirname}\');${0:}'
+
+  'deleteFile':
+    'prefix': 'deleteFile'
+    'body': '\$this->deleteFile(\'${1:filename}\');${0:}'
+
+  'deleteThisFile':
+    'prefix': 'deleteThisFile'
+    'body': '\$this->deleteThisFile();${0:}'
+
+  'dontSee':
+    'prefix': 'dontSee'
+    'body': '\$this->dontSee(\'${1:text}\', \'${2:selector}\');${0:}'
+
+  'dontSeeCheckboxIsChecked':
+    'prefix': 'dontSeeCheckboxIsChecked'
+    'body': '\$this->dontSeeCheckboxIsChecked(\'${1:checkboxOrSelector}\');${0:}'
+
+  'dontSeeCookie':
+    'prefix': 'dontSeeCookie'
+    'body': '\$this->dontSeeCookie(\'${1:cookie}\');${0:}'
+
+  'dontSeeCurrentUrlEquals':
+    'prefix': 'dontSeeCurrentUrlEquals'
+    'body': '\$this->dontSeeCurrentUrlEquals(\'${1:uri}\');${0:}'
+
+  'dontSeeCurrentUrlMatches':
+    'prefix': 'dontSeeCurrentUrlMatches'
+    'body': '\$this->dontSeeCurrentUrlMatches(\'${1:regex}\');${0:}'
+
+  'dontSeeElement':
+    'prefix': 'dontSeeElement'
+    'body': '\$this->dontSeeElement(\'${1:selector}\');${0:}'
+
+  'dontSeeElementInDOM':
+    'prefix': 'dontSeeElementInDOM'
+    'body': '\$this->dontSeeElementInDOM(\'${1:selector}\');${0:}'
+
+  'dontSeeInCollection':
+    'prefix': 'dontSeeInCollection'
+    'body': '\$this->dontSeeInCollection(\'${1:collection}\', ${2:\$criteria});${0:}'
+
+  'dontSeeInCurrentUrl':
+    'prefix': 'dontSeeInCurrentUrl'
+    'body': '\$this->dontSeeInCurrentUrl(\'${1:uri}\');${0:}'
+
+  'dontSeeInDatabase':
+    'prefix': 'dontSeeInDatabase'
+    'body': '\$this->dontSeeInDatabase(\'${1:table}\', ${2:\$criteria});${0:}'
+
+  'dontSeeInField':
+    'prefix': 'dontSeeInField'
+    'body': '\$this->dontSeeInField(\'${1:field}\', \'${2:value}\');${0:}'
+
+  'dontSeeInMemcached':
+    'prefix': 'dontSeeInMemcached'
+    'body': '\$this->dontSeeInMemcached(\'${1:key}\', \'${2:value}\');${0:}'
+
+  'dontSeeInRepository':
+    'prefix': 'dontSeeInRepository'
+    'body': '\$this->dontSeeInRepository(\'${1:entity}\', ${2:\$params});${0:}'
+
+  'dontSeeInShellOutput':
+    'prefix': 'dontSeeInShellOutput'
+    'body': '\$this->dontSeeInShellOutput(\'${1:text}\');${0:}'
+
+  'dontSeeInTable':
+    'prefix': 'dontSeeInTable'
+    'body': '\$this->dontSeeInTable(\'${1:model}\', ${2:\$values});${0:}'
+
+  'dontSeeInThisFile':
+    'prefix': 'dontSeeInThisFile'
+    'body': '\$this->dontSeeInThisFile(\'${1:text}\');${0:}'
+
+  'dontSeeInTitle':
+    'prefix': 'dontSeeInTitle'
+    'body': '\$this->dontSeeInTitle(\'${1:title}\');${0:}'
+
+  'dontSeeLink':
+    'prefix': 'dontSeeLink'
+    'body': '\$this->dontSeeLink(\'${1:text}\'${2:, \'${3:url}\'});${0:}'
+
+  'dontSeeOptionIsSelected':
+    'prefix': 'dontSeeOptionIsSelected'
+    'body': '\$this->dontSeeOptionIsSelected(\'${1:selector}\'${2:, \'${3:optionText}\'});${0:}'
+
+  'doubleClick':
+    'prefix': 'doubleClick'
+    'body': '\$this->doubleClick(\'${1:cssOrXPath}\');${0:}'
+
+  'dragAndDrop':
+    'prefix': 'dragAndDrop'
+    'body': '\$this->dragAndDrop(\'${1:sourceXPathOrID}\', \'${2:targetXPathOrID}\');${0:}'
+
+  'executeInGuzzle':
+    'prefix': 'executeInGuzzle'
+    'body': '\$this->executeInGuzzle(${1:\$callback});${0:}'
+
+  'executeInSelenium':
+    'prefix': 'executeInSelenium'
+    'body': '\$this->executeInSelenium(${1:function(\\WebDriver \$webdriver) \{ $webdriver->get(\'${2:url}\'); \}});${0:}'
+
+  'executeJS':
+    'prefix': 'executeJS'
+    'body': '\$this->executeJS(\'${1:script}\');${0:}'
+
+  'fillField':
+    'prefix': 'fillField'
+    'body': '\$this->fillField(\'${1:selector}\', \'${2:value}\');${0:}'
+
+  'flushToDatabase':
+    'prefix': 'flushToDatabase'
+    'body': '\$this->flushToDatabase();${0:}'
+
+  'focus':
+    'prefix': 'focus'
+    'body': '\$this->focus(\'${1:selector}\');${0:}'
+
+  'getName':
+    'prefix': 'getName'
+    'body': '\$this->getName(${1:});${0:}'
+
+  'grabCookie':
+    'prefix': 'grabCookie'
+    'body': '\$this->grabCookie(\'${1:cookie}\');${0:}'
+
+  'grabFacebookTestUserAccessToken':
+    'prefix': 'grabFacebookTestUserAccessToken'
+    'body': '\$this->grabFacebookTestUserAccessToken();${0:}'
+
+  'grabFacebookTestUserEmail':
+    'prefix': 'grabFacebookTestUserEmail'
+    'body': '\$this->grabFacebookTestUserEmail();${0:}'
+
+  'grabFacebookTestUserFirstName':
+    'prefix': 'grabFacebookTestUserFirstName'
+    'body': '\$this->grabFacebookTestUserFirstName();${0:}'
+
+  'grabFacebookTestUserLoginUrl':
+    'prefix': 'grabFacebookTestUserLoginUrl'
+    'body': '\$this->grabFacebookTestUserLoginUrl();${0:}'
+
+  'grabFromCollection':
+    'prefix': 'grabFromCollection'
+    'body': '\$this->grabFromCollection(\'${1:collection}\', ${2:\$criteria});${0:}'
+
+  'grabFromCurrentUrl':
+    'prefix': 'grabFromCurrentUrl'
+    'body': '\$this->grabFromCurrentUrl(${1:\'uri\'}${2:, \'${3:url}\'});${0:}'
+
+  'grabFromDatabase':
+    'prefix': 'grabFromDatabase'
+    'body': '\$this->grabFromDatabase(\'${1:table}\', \'${2:column}\', ${3:\$criteria});${0:}'
+
+  'grabFromRepository':
+    'prefix': 'grabFromRepository'
+    'body': '\$this->grabFromRepository(\'${1:entity}\', \'${2:field}\', ${3:\$params});${0:}'
+
+  'grabFromTable':
+    'prefix': 'grabFromTable'
+    'body': '\$this->grabFromTable(\'${1:model}\', \'${2:column}\', ${3:\$values});${0:}'
+
+  'grabMessageFromQueue':
+    'prefix': 'grabMessageFromQueue'
+    'body': '\$this->grabMessageFromQueue(\'${1:queue}\');${0:}'
+
+  'grabRecord':
+    'prefix': 'grabRecord'
+    'body': '\$this->grabRecord(\'${1:model}\', ${2:\$attributes});${0:}'
+
+  'grabServiceFromContainer':
+    'prefix': 'grabServiceFromContainer'
+    'body': '\$this->grabServiceFromContainer(\'${1:service}\');${0:}'
+
+  'grabTextFrom':
+    'prefix': 'grabTextFrom'
+    'body': '\$this->grabTextFrom(\'${1:cssOrXPathOrRegex}\');${0:}'
+
+  'grabValueFrom':
+    'prefix': 'grabValueFrom'
+    'body': '\$this->grabValueFrom(\'${1:nameOrCssOrXPath}\');${0:}'
+
+  'grabValueFromMemcached':
+    'prefix': 'grabValueFromMemcached'
+    'body': '\$this->grabValueFromMemcached(\'${1:key}\');${0:}'
+
+  'haveFacebookTestUserAccount':
+    'prefix': 'haveFacebookTestUserAccount'
+    'body': '\$this->haveFacebookTestUserAccount();${0:}'
+
+  'haveFakeRepository':
+    'prefix': 'haveFakeRepository'
+    'body': '\$this->haveFakeRepository(\'${1:classname}\', ${2:\$methods});${0:}'
+
+  'haveHttpHeader':
+    'prefix': 'haveHttpHeader'
+    'body': '\$this->haveHttpHeader(\'${1:name}\', \'${2:value}\');${0:}'
+
+  'haveInCollection':
+    'prefix': 'haveInCollection'
+    'body': '\$this->haveInCollection(\'${1:collection}\', ${2:\$data});${0:}'
+
+  'haveInDatabase':
+    'prefix': 'haveInDatabase'
+    'body': '\$this->haveInDatabase(\'${1:table}\', ${2:\$data});${0:}'
+
+  'haveInRepository':
+    'prefix': 'haveInRepository'
+    'body': '\$this->haveInRepository();${0:}'
+
+  'haveRecord':
+    'prefix': 'haveRecord'
+    'body': '\$this->haveRecord(\'${1:model}\', ${2:\$attributes});${0:}'
+
+  'haveTestUserLoggedInOnFacebook':
+    'prefix': 'haveTestUserLoggedInOnFacebook'
+    'body': '\$this->haveTestUserLoggedInOnFacebook();${0:}'
+
+  'headRequest':
+    'prefix': 'headRequest'
+    'body': '\$this->headRequest(\'${1:url}\');${0:}'
+
+  'makeAResponseDump':
+    'prefix': 'makeAResponseDump'
+    'body': '\$this->makeAResponseDump(\'${1:name}\');${0:}'
+
+  'makeAScreentshot':
+    'prefix': 'makeAScreentshot'
+    'body': '\$this->makeAScreentshot(\'${1:name}\');${0:}'
+
+  'makeScreenshot':
+    'prefix': 'makeScreenshot'
+    'body': '\$this->makeScreenshot(\'${1:name}\');${0:}'
+
+  'maximizeWindow':
+    'prefix': 'maximizeWindow'
+    'body': '\$this->maximizeWindow();${0:}'
+
+  'moveBack':
+    'prefix': 'moveBack'
+    'body': '\$this->moveBack();${0:}'
+
+  'moveForward':
+    'prefix': 'moveForward'
+    'body': '\$this->moveForward();${0:}'
+
+  'moveMouseOver':
+    'prefix': 'moveMouseOver'
+    'body': '\$this->moveMouseOver(\'${1:selector}\', \'${2:offsetX}\', \'${3:offsetY}\');${0:}'
+
+  'openFile':
+    'prefix': 'openFile'
+    'body': '\$this->openFile(\'${1:filename}\');${0:}'
+
+  'pauseExecution':
+    'prefix': 'pauseExecution'
+    'body': '\$this->pauseExecution();${0:}'
+
+  'persistEntity':
+    'prefix': 'persistEntity'
+    'body': '\$this->persistEntity(${1:\$user}, ${2:\$values});${0:}'
+
+  'pushToExchange':
+    'prefix': 'pushToExchange'
+    'body': '\$this->pushToExchange(\'${1:exchange}\', \'${2:message}\');${0:}'
+
+  'pushToQueue':
+    'prefix': 'pushToQueue'
+    'body': '\$this->pushToQueue(\'${1:queue}\', \'${2:message}\');${0:}'
+
+  'pressKey':
+    'prefix': 'pressKey'
+    'body': '\$this->pressKey(\'${1:selector}\', ${2:\$char1}${3:, ${4:\$char2}});${0:}'
+
+  'pressKeyDown':
+    'prefix': 'pressKeyDown'
+    'body': '\$this->pressKeyDown(\'${1:selector}\', \'${2:char}\'${3:, \'${4:ctrl|alt|shift|meta}\'});${0:}'
+
+  'pressKeyUp':
+    'prefix': 'pressKeyUp'
+    'body': '\$this->pressKeyUp(\'${1:selector}\', \'${2:char}\'${3:, \'${4:ctrl|alt|shift|meta}\'});${0:}'
+
+  'reloadPage':
+    'prefix': 'reloadPage'
+    'body': '\$this->reloadPage();${0:}'
+
+  'resetCookie':
+    'prefix': 'resetCookie'
+    'body': '\$this->resetCookie(\'${1:cookie}\');${0:}'
+
+  'resizeWindow':
+    'prefix': 'resizeWindow'
+    'body': '\$this->resizeWindow(${1:800}, ${2:600});${0:}'
+
+  'runShellCommand':
+    'prefix': 'runShellCommand'
+    'body': '\$this->runShellCommand(\'${1:command}\');${0:}'
+
+  'see':
+    'prefix': 'see'
+    'body': '\$this->see(\'${1:text}\'${2:, \'${3:selector}\'});${0:}'
+
+  'seeCheckboxIsChecked':
+    'prefix': 'seeCheckboxIsChecked'
+    'body': '\$this->seeCheckboxIsChecked(\'${1:selector}\');${0:}'
+
+  'seeCookie':
+    'prefix': 'seeCookie'
+    'body': '\$this->seeCookie(\'${1:cookie}\');${0:}'
+
+  'seeCurrentUrlEquals':
+    'prefix': 'seeCurrentUrlEquals'
+    'body': '\$this->seeCurrentUrlEquals(\'${1:uri}\');${0:}'
+
+  'seeCurrentUrlMatches':
+    'prefix': 'seeCurrentUrlMatches'
+    'body': '\$this->seeCurrentUrlMatches(\'${1:regex}\');${0:}'
+
+  'seeElement':
+    'prefix': 'seeElement'
+    'body': '\$this->seeElement(\'${1:selector}\');${0:}'
+
+  'seeElementInDOM':
+    'prefix': 'seeElementInDOM'
+    'body': '\$this->seeElementInDOM(\'${1:selector}\');${0:}'
+
+  'seeEmailReceived':
+    'prefix': 'seeEmailReceived'
+    'body': '\$this->seeEmailReceived();${0:}'
+
+  'seeEmailsSent':
+    'prefix': 'seeEmailsSent'
+    'body': '\$this->seeEmailsSent();${0:}'
+
+  'seeErrorInField':
+    'prefix': 'seeErrorInField'
+    'body': '\$this->seeErrorInField(\'${1:field}\');${0:}'
+
+  'seeErrorsInForm':
+    'prefix': 'seeErrorsInForm'
+    'body': '\$this->seeErrorsInForm();${0:}'
+
+  'seeFileContentsEqual':
+    'prefix': 'seeFileContentsEqual'
+    'body': '\$this->seeFileContentsEqual(\'${1:text}\');${0:}'
+
+  'seeFileFound':
+    'prefix': 'seeFileFound'
+    'body': '\$this->seeFileFound(\'${1:filename}\', \'${2:path}\');${0:}'
+
+  'seeFormIsValid':
+    'prefix': 'seeFormIsValid'
+    'body': '\$this->seeFormIsValid();${0:}'
+
+  'seeInCollection':
+    'prefix': 'seeInCollection'
+    'body': '\$this->seeInCollection(\'${1:collection}\', ${2:\$criteria});${0:}'
+
+  'seeInCurrentUrl':
+    'prefix': 'seeInCurrentUrl'
+    'body': '\$this->seeInCurrentUrl(\'${1:uri}\');${0:}'
+
+  'seeInDatabase':
+    'prefix': 'seeInDatabase'
+    'body': '\$this->seeInDatabase(\'${1:table}\', ${2:\$criteria});${0:}'
+
+  'seeInField':
+    'prefix': 'seeInField'
+    'body': '\$this->seeInField(\'${1:selector}\', \'${2:value}\');${0:}'
+
+  'seeInMemcached':
+    'prefix': 'seeInMemcached'
+    'body': '\$this->seeInMemcached(\'${1:key}\', \'${2:value}\');${0:}'
+
+  'seeInPopup':
+    'prefix': 'seeInPopup'
+    'body': '\$this->seeInPopup(\'${1:text}\');${0:}'
+
+  'seeInRepository':
+    'prefix': 'seeInRepository'
+    'body': '\$this->seeInRepository(\'${1:entity}\', ${2:\$params});${0:}'
+
+  'seeInSession':
+    'prefix': 'seeInSession'
+    'body': '\$this->seeInSession(\'${1:key}\', \'${2:value}\');${0:}'
+
+  'seeInShellOutput':
+    'prefix': 'seeInShellOutput'
+    'body': '\$this->seeInShellOutput(\'${1:text}\');${0:}'
+
+  'seeInTable':
+    'prefix': 'seeInTable'
+    'body': '\$this->seeInTable(\'${1:model}\', ${2:\$values});${0:}'
+
+  'seeInTitle':
+    'prefix': 'seeInTitle'
+    'body': '\$this->seeInTitle(\'${1:text}\');${0:}'
+
+  'seeInThisFile':
+    'prefix': 'seeInThisFile'
+    'body': '\$this->seeInThisFile(\'${1:text}\');${0:}'
+
+  'seeLink':
+    'prefix': 'seeLink'
+    'body': '\$this->seeLink(\'${1:text}\'${2:, \'${3:url}\'});${0:}'
+
+  'seeMessageInQueueContainsText':
+    'prefix': 'seeMessageInQueueContainsText'
+    'body': '\$this->seeMessageInQueueContainsText(\'${1:queue}\', \'${2:text}\');${0:}'
+
+  'seeOptionIsSelected':
+    'prefix': 'seeOptionIsSelected'
+    'body': '\$this->seeOptionIsSelected(\'${1:selector}\', \'${2:optionText}\');${0:}'
+
+  'seePageNotFound':
+    'prefix': 'seePageNotFound'
+    'body': '\$this->seePageNotFound();${0:}'
+
+  'seePostOnFacebookWithAttachedPlace':
+    'prefix': 'seePostOnFacebookWithAttachedPlace'
+    'body': '\$this->seePostOnFacebookWithAttachedPlace(\'${1:placeId}\');${0:}'
+
+  'seeRecord':
+    'prefix': 'seeRecord'
+    'body': '\$this->seeRecord(\'${1:model}\', ${2:\$attributes});${0:}'
+
+  'seeResponseCodeIs':
+    'prefix': 'seeResponseCodeIs'
+    'body': '\$this->seeResponseCodeIs(\'${1:code}\');${0:}'
+
+  'seeResponseIsXMLRPC':
+    'prefix': 'seeResponseIsXMLRPC'
+    'body': '\$this->seeResponseIsXMLRPC();${0:}'
+
+  'seeSessionErrorMessage':
+    'prefix': 'seeSessionErrorMessage'
+    'body': '\$this->seeSessionErrorMessage(${1:\$bindings});${0:}'
+
+  'seeSessionHasErrors':
+    'prefix': 'seeSessionHasErrors'
+    'body': '\$this->seeSessionHasErrors();${0:}'
+
+  'seeSessionHasValues':
+    'prefix': 'seeSessionHasValues'
+    'body': '\$this->seeSessionHasValues(${1:\$bindings});${0:}'
+
+  'seeShellOutputMatches':
+    'prefix': 'seeShellOutputMatches'
+    'body': '\$this->seeShellOutputMatches(\'${1:regex}\');${0:}'
+
+  'selectOption':
+    'prefix': 'selectOption'
+    'body': '\$this->selectOption(\'${1:selector}\', \'${2:option}\');${0:}'
+
+  'sendAjaxGetRequest':
+    'prefix': 'sendAjaxGetRequest'
+    'body': '\$this->sendAjaxGetRequest(\'${1:uri}\', ${2:\$params});${0:}'
+
+  'sendAjaxPostRequest':
+    'prefix': 'sendAjaxPostRequest'
+    'body': '\$this->sendAjaxPostRequest(\'${1:uri}\', ${2:\$params});${0:}'
+
+  'sendAjaxRequest':
+    'prefix': 'sendAjaxRequest'
+    'body': '\$this->sendAjaxRequest(\'${1:method}\', \'${2:uri}\', ${3:\$params});${0:}'
+
+  'sendXMLRPCMethodCall':
+    'prefix': 'sendXMLRPCMethodCall'
+    'body': '\$this->sendXMLRPCMethodCall(\'${1:methodName}\', [${2:parameters}]);${0:}'
+
+  'setCookie':
+    'prefix': 'setCookie'
+    'body': '\$this->setCookie(\'${1:cookie}\', \'${2:value}\');${0:}'
+
+  'signIn':
+    'prefix': 'signIn'
+    'body': '\$this->signIn(\'${1:username}\', \'${2:password}\');${0:}'
+
+  'signOut':
+    'prefix': 'signOut'
+    'body': '\$this->signOut();${0:}'
+
+  'sq':
+    'prefix': 'sq'
+    'body': '\'${1:text}\'.sq(\'${2:id}\')${0:}'
+
+  'submitForm':
+    'prefix': 'submitForm'
+    'body': '\$this->submitForm(${1:selector}, array(${2:params}));${0:}'
+
+  'switchToIFrame':
+    'prefix': 'switchToIFrame'
+    'body': '\$this->switchToIFrame(\'${1:name}\');${0:}'
+
+  'switchToWindow':
+    'prefix': 'switchToWindow'
+    'body': '\$this->switchToWindow(\'${1:name}\');${0:}'
+
+  'typeInPopup':
+    'prefix': 'typeInPopup'
+    'body': '\$this->typeInPopup(${1:\$keys});${0:}'
+
+  'uncheckOption':
+    'prefix': 'uncheckOption'
+    'body': '\$this->uncheckOption(\'${1:selector}\');${0:}'
+
+  'unselectOption':
+    'prefix': 'unselectOption'
+    'body': '\$this->unselectOption(\'${1:selector}\');${0:}'
+
+  'wait':
+    'prefix': 'wait'
+    'body': '\$this->wait(${1:60});${0:}'
+
+  'waitForElement':
+    'prefix': 'waitForElement'
+    'body': '\$this->waitForElement(\'${1:selector}\', ${2:60});${0:}'
+
+  'waitForElementChange':
+    'prefix': 'waitForElementChange'
+    'body': '\$this->waitForElementChange(\'${1:selector}\', ${2:callback}, ${3:60});${0:}'
+
+  'waitForElementNotVisible':
+    'prefix': 'waitForElementNotVisible'
+    'body': '\$this->waitForElementNotVisible(\'${1:selector}\', ${2:60});${0:}'
+
+  'waitForElementVisible':
+    'prefix': 'waitForElementVisible'
+    'body': '\$this->waitForElementVisible(\'${1:selector}\', ${2:60});${0:}'
+
+  'waitForJS':
+    'prefix': 'waitForJS'
+    'body': '\$this->waitForJS(\'${1:script}\', ${2:60});${0:}'
+
+  'waitForText':
+    'prefix': 'waitForText'
+    'body': '\$this->waitForText(\'${1:text}\', ${2:60}${3:, \'${4:selector}\'});${0:}'

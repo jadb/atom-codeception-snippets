@@ -1,0 +1,11 @@
+{
+  "name": "codeception-snippets",
+  "version": "0.0.0",
+  "description": "Snippets to help you writing Codeception tests in Atom.io.",
+  "repository": "https://github.com/jadb/atom-codeception-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {}
+}
